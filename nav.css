@@ -1,68 +1,59 @@
 body {
-    margin: 0;
-    background-color: black;
+  margin: 0;
+  background-color: black;
 }
-
 
 button:hover {
-
-    background-color: green;
-    color: white;
+  background-color: green;
+  color: white;
 }
 
-
 ul {
-    display: flex;
-    background-color: rgb(35, 37, 41);
+  display: flex;
+  background-color: rgb(35, 37, 41);
 
-    color: white;
-    border-bottom: 1px solid white;
-    padding-left: 0;
-
-
+  color: white;
+  border-bottom: 1px solid white;
+  padding-left: 0;
 }
 
 li {
-
-    margin-right: 10px;
-    list-style-type: none;
-    padding: 20px 20px;
+  margin-right: 10px;
+  list-style-type: none;
+  padding: 20px 20px;
+  height: 20px;
+  overflow: hidden;
 }
 
 input.mioTesto1 {
-    width: 220px;
-    height: 40px;
-    border-radius: 5px;
-
-
+  width: 220px;
+  height: 40px;
+  border-radius: 5px;
 }
 
 form {
-
-    margin: 0;
-    padding-top: 8px;
+  margin: 0;
+  padding-top: 8px;
 }
 
 button {
-    background-color: transparent;
-    border-radius: 5px;
-    border: 1px solid green;
-    color: green;
-    width: 100px;
-    height: 40px;
-    
-     
-  
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid green;
+  color: green;
+  width: 100px;
+  height: 40px;
 }
 
 li.gray {
-    color: gray;
+  color: gray;
 }
 
 @media (max-width: 847px) {
-
-    ul li:not(:first-child) {display: none;}
-
+  ul li:not(:first-child) {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
 }
-
- 
